@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "Blink.h"
 
+
 Blink led(2);
 
 void setup() {
@@ -12,7 +13,3 @@ void loop() {
   led.now();
 }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
