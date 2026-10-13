@@ -1,15 +1,15 @@
 #include <Arduino.h>
+#include "Blink.h"
 
-// put function declarations here:
-int myFunction(int, int);
+Blink led(2);
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  led.now();
 }
 
 // put function definitions here:
